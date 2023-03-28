@@ -26,6 +26,7 @@ int check(const char *format, va_list list, f_list *check_format);
 int print_binary(va_list list);
 char check_hex(unsigned int num, char c);
 int print_binary(va_list list);
+int print_unsigned_int(va_list list);
 int print_heX(va_list list);
 int print_hex(va_list list);
 int print_octal(va_list list);
