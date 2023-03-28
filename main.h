@@ -24,6 +24,11 @@ int print_percent(va_list list);
 int print_integer(va_list list);
 int check(const char *format, va_list list, f_list *check_format);
 int print_binary(va_list list);
+char check_hex(unsigned int num, char c);
+int print_binary(va_list list);
+int print_heX(va_list list);
+int print_hex(va_list list);
+int print_octal(va_list list);
 
 /*Helper functions*/
 char *reverse_string(char *s);
